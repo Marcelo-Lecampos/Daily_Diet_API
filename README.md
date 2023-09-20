@@ -38,7 +38,11 @@ Os requisitos para desenvolvimento do projeto estão no [LINK](https://efficient
   <img src="readmeFiles/estrutura-overview-v.png" alt="tela_inicial" />
 </div>
 
+### Breve Explicação da estrutura do projeto
+
 ```bash
+
+
 
 projeto/
 ├── src/
