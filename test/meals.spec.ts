@@ -148,7 +148,7 @@ describe('Meals routes', () => {
         .send(input)
         .expect(200)
 
-      expect(putResponse.body).toEqual(expected)
+      expect(putResponse.body).toEqual(expected.reponse)
     })
   })
 })
