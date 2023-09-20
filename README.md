@@ -50,14 +50,14 @@ projeto/
 │   ├── env/
 │   │   └── index.ts      # Variáveis de ambiente e tipagem com Zod
 │   ├── @types/
-│   │   └── knex/
-│   │       └──           # Tipagens das tabelas do banco de dados
+│   │   └── knex/         # Tipagens das tabelas do banco de dados
+│   │                  
 │   ├── routes/
-│   │   └──               # Configuração das Rotas
+│   │   └── *.ts              # Configuração das Rotas
 │   ├── middlewares/
 │   │   └──               # Middleware de autenticação do usuário
 │   ├── utils/
-│   │   └──               # Funções de utilidade reutilizáveis
+│   │   └── *              # Funções de utilidade reutilizáveis
 ├── test/
 │   ├── end2end/          # Testes end-to-end
 │   └── fixtures/         # Dados para testes
