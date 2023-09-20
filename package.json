@@ -1,0 +1,31 @@
+{
+  "name": "daily_diet_api",
+  "version": "1.0.0",
+  "description": "projeto avaliativo da RocketSeat",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src --ext .ts --fix",
+    "test": "vitest",
+    "knex": "node --loader tsx ./node_modules/knex/bin/cli.js",
+    "start": "npx tsx watch src/server.ts"
+  },
+  "author": "Marcelo Campos",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cookie": "^9.0.4",
+    "@types/supertest": "^2.0.12",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.21.0",
+    "knex": "^2.5.1",
+    "sqlite3": "^5.1.6",
+    "zod": "^3.22.1"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/node": "^20.5.0",
+    "eslint": "^8.47.0",
+    "supertest": "^6.3.3",
+    "tsx": "^3.12.7",
+    "vitest": "^0.34.4"
+  }
+}
