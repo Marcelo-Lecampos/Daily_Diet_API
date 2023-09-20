@@ -12,7 +12,7 @@ Os requisitos para desenvolvimento do projeto estão no [LINK](https://efficient
 
 | Ferramenta   | Sumário                                         | Descrição                                                                                                                                                                                                                                |
 | ------------ | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Node.js`    | Ambiente de execução JavaScript                 | Node.js é um ambiente de execução JavaScript que permite que você execute código JavaScript no servidor. Ele é conhecido por sua eficiência e escalabilidade, sendo amplamente utilizado para desenvolver aplicativos web e de back-end. |
+| `Node.js 18.15`    | Ambiente de execução JavaScript                 | Node.js é um ambiente de execução JavaScript que permite que você execute código JavaScript no servidor. Ele é conhecido por sua eficiência e escalabilidade, sendo amplamente utilizado para desenvolver aplicativos web e de back-end. |
 | `Fastify`    | Framework web rápido para Node.js               | Fastify é um framework web para Node.js que se destaca por sua alta performance e baixa sobrecarga. Ele é usado para construir APIs web eficientes e escaláveis.                                                                         |
 | `npm`        | Gerenciador de pacotes do Node.js.              | npm é o gerenciador de pacotes padrão para o Node.js. Ele permite que você instale, atualize e gerencie as dependências do seu projeto JavaScript de forma fácil e eficiente.                                                            |
 | `Typescript` | Linguagem de programação tipada.                | TypeScript é uma linguagem de programação que adiciona tipagem estática ao JavaScript. Isso ajuda a identificar erros de código em tempo de compilação e melhora a manutenibilidade de grandes projetos.                                 |
@@ -26,6 +26,7 @@ Os requisitos para desenvolvimento do projeto estão no [LINK](https://efficient
 
 | Passo                                                | Comando                                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------------------------ |
+| Verifique se possui Node na versão 18.15.0                                | `node -v`                                                                |
 | Instale as dependências após acessar a pasta projeto | `npm install`                                                            |
 | Configure as Variaveis de ambiente                   | `configure o .env conforme o modelo do .env.example e .env.test.example` |
 | Rode as migrations                                   | `npm run knex:migrate:latest`                                            |
