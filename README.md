@@ -29,7 +29,7 @@ Os requisitos para desenvolvimento do projeto estão no [LINK](https://efficient
 | Verifique se possui Node na versão 18.15.0                                | `node -v`                                                                |
 | Instale as dependências após acessar a pasta projeto | `npm install`                                                            |
 | Configure as Variaveis de ambiente                   | `configure o .env conforme o modelo do .env.example e .env.test.example` |
-| Rode as migrations                                   | `npm run npm run knex -- migrate:latest`                                            |
+| Rode as migrations                                   | `npm run knex -- migrate:latest`                                            |
 | Rode o projeto                                       | `npm run start`                                                          |
 | Rode os testes                                       | `npm run test`                                                           |
 
